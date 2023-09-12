@@ -1,0 +1,262 @@
+2023-09-12 08:18:07,994 DEBUG [FsImageLoader] - Loading fsimage section STRING_TABLE of 53 bytes
+2023-09-12 08:18:08,052 INFO  [FSDirectory] - GLOBAL serial map: bits=29 maxEntries=536870911
+2023-09-12 08:18:08,053 INFO  [FSDirectory] - USER serial map: bits=24 maxEntries=16777215
+2023-09-12 08:18:08,053 INFO  [FSDirectory] - GROUP serial map: bits=24 maxEntries=16777215
+2023-09-12 08:18:08,053 INFO  [FSDirectory] - XATTR serial map: bits=24 maxEntries=16777215
+2023-09-12 08:18:08,055 DEBUG [FsImageLoader] - Loaded 5 strings into string table of length 53 bytes
+2023-09-12 08:18:08,055 DEBUG [FsImageLoader] - Loaded fsimage section STRING_TABLE in 61ms
+2023-09-12 08:18:08,056 DEBUG [FsImageLoader] - Loading fsimage section INODE_REFERENCE of 0 bytes
+2023-09-12 08:18:08,058 DEBUG [FsImageLoader] - Loaded 0 inode references of size 0 bytes
+2023-09-12 08:18:08,058 DEBUG [FsImageLoader] - Loaded fsimage section INODE_REFERENCE in 2ms
+2023-09-12 08:18:08,060 DEBUG [FsImageLoader] - Loading fsimage section INODE of 1925 bytes
+2023-09-12 08:18:08,067 DEBUG [FsImageLoader] - Loaded 30 inodes [6ms] of length 1925 bytes
+2023-09-12 08:18:08,076 DEBUG [FsImageLoader] - Sorted 30 inodes [9ms]
+2023-09-12 08:18:08,076 DEBUG [FsImageLoader] - Computed inodes idx to id cache[len=30] in 0ms
+2023-09-12 08:18:08,079 DEBUG [FsImageLoader] - Loaded fsimage section INODE in 19ms
+2023-09-12 08:18:08,083 DEBUG [FsImageLoader] - Loading fsimage section INODE_DIR of 157 bytes
+2023-09-12 08:18:08,126 DEBUG [FsImageLoader] - Loaded 10 directories
+2023-09-12 08:18:08,126 DEBUG [FsImageLoader] - Loaded fsimage section INODE_DIR in 43ms
+2023-09-12 08:18:08,144 INFO  [FsImageUpdateHandler] - Loaded /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001 with 0.0MiB in 211ms
+2023-09-12 08:18:08,165 DEBUG [FsImageReporter] - Visiting directory /
+2023-09-12 08:18:08,187 DEBUG [FsImageReporter] - Visiting directory /test2
+2023-09-12 08:18:08,188 DEBUG [FsImageReporter] - Visiting directory /user
+2023-09-12 08:18:08,188 DEBUG [FsImageReporter] - Visiting directory /user/mm
+2023-09-12 08:18:08,188 DEBUG [FsImageReporter] - Visiting directory /test3
+2023-09-12 08:18:08,188 DEBUG [FsImageReporter] - Visiting directory /test3/foo
+2023-09-12 08:18:08,188 DEBUG [FsImageReporter] - Visiting directory /test3/foo/bar
+2023-09-12 08:18:08,190 DEBUG [FsImageReporter] - Visiting directory /test1
+2023-09-12 08:18:08,191 DEBUG [FsImageReporter] - Visiting directory /datalake
+2023-09-12 08:18:08,191 DEBUG [FsImageReporter] - Visiting directory /datalake/asset1
+2023-09-12 08:18:08,191 DEBUG [FsImageReporter] - Visiting directory /datalake/asset2
+2023-09-12 08:18:08,192 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3
+2023-09-12 08:18:08,192 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset1
+2023-09-12 08:18:08,192 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset2
+2023-09-12 08:18:08,192 INFO  [FsImageReporter] - Finished computing overall/group/user stats in 43ms
+2023-09-12 08:18:08,201 DEBUG [FsImageLoader] - Loading fsimage section STRING_TABLE of 53 bytes
+2023-09-12 08:18:08,201 DEBUG [FsImageLoader] - Loaded 5 strings into string table of length 53 bytes
+2023-09-12 08:18:08,201 DEBUG [FsImageLoader] - Loaded fsimage section STRING_TABLE in 0ms
+2023-09-12 08:18:08,201 DEBUG [FsImageLoader] - Loading fsimage section INODE_REFERENCE of 0 bytes
+2023-09-12 08:18:08,201 DEBUG [FsImageLoader] - Loaded 0 inode references of size 0 bytes
+2023-09-12 08:18:08,201 DEBUG [FsImageLoader] - Loaded fsimage section INODE_REFERENCE in 0ms
+2023-09-12 08:18:08,201 DEBUG [FsImageLoader] - Loading fsimage section INODE of 1925 bytes
+2023-09-12 08:18:08,202 DEBUG [FsImageLoader] - Loaded 30 inodes [0ms] of length 1925 bytes
+2023-09-12 08:18:08,202 DEBUG [FsImageLoader] - Sorted 30 inodes [0ms]
+2023-09-12 08:18:08,202 DEBUG [FsImageLoader] - Computed inodes idx to id cache[len=30] in 0ms
+2023-09-12 08:18:08,202 DEBUG [FsImageLoader] - Loaded fsimage section INODE in 1ms
+2023-09-12 08:18:08,202 DEBUG [FsImageLoader] - Loading fsimage section INODE_DIR of 157 bytes
+2023-09-12 08:18:08,272 DEBUG [FsImageLoader] - Loaded 10 directories
+2023-09-12 08:18:08,273 DEBUG [FsImageLoader] - Loaded fsimage section INODE_DIR in 71ms
+2023-09-12 08:18:08,274 INFO  [FsImageReporter] - Base path for /datalake/a.* is /datalake/
+2023-09-12 08:18:08,276 INFO  [FsImageReporter] - Base path for /user/m.* is /user/
+2023-09-12 08:18:08,278 INFO  [FsImageReporter] - Base path for /tmp is /
+2023-09-12 08:18:08,284 INFO  [FsImageReporter] - Base path for /datalake/.* is /datalake/
+2023-09-12 08:18:08,284 INFO  [FsImageReporter] - Base path for /datalake/.*[2,3] is /datalake/
+2023-09-12 08:18:08,285 INFO  [FsImageReporter] - Base path for /datal.*e/.* is /
+2023-09-12 08:18:08,285 INFO  [FsImageReporter] - Base path for /test.*/foo is /
+2023-09-12 08:18:08,286 INFO  [FsImageReporter] - Base path for /test3/.*/.* is /test3/
+2023-09-12 08:18:08,401 DEBUG [FsImageWatcher] - Detected changes (old=, new=/root/fsimage-exporter-artifact/src/test/resources/fsimage_0001)
+2023-09-12 08:18:08,403 DEBUG [FsImageLoader] - Loading fsimage section STRING_TABLE of 53 bytes
+2023-09-12 08:18:08,403 DEBUG [FsImageLoader] - Loaded 5 strings into string table of length 53 bytes
+2023-09-12 08:18:08,404 DEBUG [FsImageLoader] - Loaded fsimage section STRING_TABLE in 1ms
+2023-09-12 08:18:08,404 DEBUG [FsImageLoader] - Loading fsimage section INODE_REFERENCE of 0 bytes
+2023-09-12 08:18:08,404 DEBUG [FsImageLoader] - Loaded 0 inode references of size 0 bytes
+2023-09-12 08:18:08,404 DEBUG [FsImageLoader] - Loaded fsimage section INODE_REFERENCE in 0ms
+2023-09-12 08:18:08,404 DEBUG [FsImageLoader] - Loading fsimage section INODE of 1925 bytes
+2023-09-12 08:18:08,404 DEBUG [FsImageLoader] - Loaded 30 inodes [0ms] of length 1925 bytes
+2023-09-12 08:18:08,404 DEBUG [FsImageLoader] - Sorted 30 inodes [0ms]
+2023-09-12 08:18:08,405 DEBUG [FsImageLoader] - Computed inodes idx to id cache[len=30] in 1ms
+2023-09-12 08:18:08,405 DEBUG [FsImageLoader] - Loaded fsimage section INODE in 1ms
+2023-09-12 08:18:08,405 DEBUG [FsImageLoader] - Loading fsimage section INODE_DIR of 157 bytes
+2023-09-12 08:18:08,436 DEBUG [FsImageLoader] - Loaded 10 directories
+2023-09-12 08:18:08,436 DEBUG [FsImageLoader] - Loaded fsimage section INODE_DIR in 31ms
+2023-09-12 08:18:08,437 INFO  [FsImageUpdateHandler] - Loaded /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001 with 0.0MiB in 36ms
+2023-09-12 08:18:08,438 DEBUG [FsImageReporter] - Visiting directory /
+2023-09-12 08:18:08,440 DEBUG [FsImageReporter] - Visiting directory /test1
+2023-09-12 08:18:08,441 DEBUG [FsImageReporter] - Visiting directory /datalake
+2023-09-12 08:18:08,441 DEBUG [FsImageReporter] - Visiting directory /datalake/asset1
+2023-09-12 08:18:08,441 DEBUG [FsImageReporter] - Visiting directory /datalake/asset2
+2023-09-12 08:18:08,441 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3
+2023-09-12 08:18:08,441 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset1
+2023-09-12 08:18:08,441 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset2
+2023-09-12 08:18:08,442 DEBUG [FsImageReporter] - Visiting directory /user
+2023-09-12 08:18:08,442 DEBUG [FsImageReporter] - Visiting directory /user/mm
+2023-09-12 08:18:08,442 DEBUG [FsImageReporter] - Visiting directory /test3
+2023-09-12 08:18:08,443 DEBUG [FsImageReporter] - Visiting directory /test3/foo
+2023-09-12 08:18:08,443 DEBUG [FsImageReporter] - Visiting directory /test3/foo/bar
+2023-09-12 08:18:08,443 DEBUG [FsImageReporter] - Visiting directory /test2
+2023-09-12 08:18:08,443 INFO  [FsImageReporter] - Finished computing overall/group/user stats in 5ms
+2023-09-12 08:18:08,444 INFO  [FsImageReporter] - Base path for /datalake/.* is /datalake/
+2023-09-12 08:18:08,444 INFO  [FsImageReporter] - Expanded paths [/datalake/asset3, /datalake/asset1, /datalake/asset2] for path stats [/datalake/.*]
+2023-09-12 08:18:08,446 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset3 with 18 total number of files in 1ms
+2023-09-12 08:18:08,446 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset1 with 0 total number of files in 0ms
+2023-09-12 08:18:08,446 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset2 with 13 total number of files in 0ms
+2023-09-12 08:18:08,447 INFO  [FsImageReporter] - Finished 3 path stats in 3ms
+2023-09-12 08:18:08,474 DEBUG [FsImageWatcher] - Detected changes (old=, new=/root/fsimage-exporter-artifact/src/test/resources/fsimage_0001)
+2023-09-12 08:18:08,474 DEBUG [FsImageLoader] - Loading fsimage section STRING_TABLE of 53 bytes
+2023-09-12 08:18:08,475 DEBUG [FsImageLoader] - Loaded 5 strings into string table of length 53 bytes
+2023-09-12 08:18:08,475 DEBUG [FsImageLoader] - Loaded fsimage section STRING_TABLE in 1ms
+2023-09-12 08:18:08,475 DEBUG [FsImageLoader] - Loading fsimage section INODE_REFERENCE of 0 bytes
+2023-09-12 08:18:08,475 DEBUG [FsImageLoader] - Loaded 0 inode references of size 0 bytes
+2023-09-12 08:18:08,475 DEBUG [FsImageLoader] - Loaded fsimage section INODE_REFERENCE in 0ms
+2023-09-12 08:18:08,475 DEBUG [FsImageLoader] - Loading fsimage section INODE of 1925 bytes
+2023-09-12 08:18:08,475 DEBUG [FsImageLoader] - Loaded 30 inodes [0ms] of length 1925 bytes
+2023-09-12 08:18:08,476 DEBUG [FsImageLoader] - Sorted 30 inodes [0ms]
+2023-09-12 08:18:08,477 DEBUG [FsImageLoader] - Computed inodes idx to id cache[len=30] in 0ms
+2023-09-12 08:18:08,477 DEBUG [FsImageLoader] - Loaded fsimage section INODE in 2ms
+2023-09-12 08:18:08,477 DEBUG [FsImageLoader] - Loading fsimage section INODE_DIR of 157 bytes
+2023-09-12 08:18:08,505 DEBUG [FsImageLoader] - Loaded 10 directories
+2023-09-12 08:18:08,505 DEBUG [FsImageLoader] - Loaded fsimage section INODE_DIR in 27ms
+2023-09-12 08:18:08,506 INFO  [FsImageUpdateHandler] - Loaded /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001 with 0.0MiB in 32ms
+2023-09-12 08:18:08,510 DEBUG [FsImageReporter] - Visiting directory /
+2023-09-12 08:18:08,512 DEBUG [FsImageReporter] - Visiting directory /test1
+2023-09-12 08:18:08,512 DEBUG [FsImageReporter] - Visiting directory /datalake
+2023-09-12 08:18:08,512 DEBUG [FsImageReporter] - Visiting directory /datalake/asset1
+2023-09-12 08:18:08,512 DEBUG [FsImageReporter] - Visiting directory /datalake/asset2
+2023-09-12 08:18:08,513 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3
+2023-09-12 08:18:08,513 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset1
+2023-09-12 08:18:08,513 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset2
+2023-09-12 08:18:08,514 DEBUG [FsImageReporter] - Visiting directory /user
+2023-09-12 08:18:08,514 DEBUG [FsImageReporter] - Visiting directory /user/mm
+2023-09-12 08:18:08,514 DEBUG [FsImageReporter] - Visiting directory /test3
+2023-09-12 08:18:08,514 DEBUG [FsImageReporter] - Visiting directory /test3/foo
+2023-09-12 08:18:08,514 DEBUG [FsImageReporter] - Visiting directory /test3/foo/bar
+2023-09-12 08:18:08,515 DEBUG [FsImageReporter] - Visiting directory /test2
+2023-09-12 08:18:08,515 INFO  [FsImageReporter] - Finished computing overall/group/user stats in 5ms
+2023-09-12 08:18:08,515 INFO  [FsImageReporter] - Base path for /non/existing/path/.* is /
+2023-09-12 08:18:08,515 INFO  [FsImageReporter] - Expanded paths [] for path stats [/non/existing/path/.*]
+2023-09-12 08:18:08,515 INFO  [FsImageReporter] - Finished 0 path stats in 0ms
+2023-09-12 08:18:08,532 DEBUG [FsImageWatcher] - Detected changes (old=, new=/root/fsimage-exporter-artifact/src/test/resources/fsimage_0001)
+2023-09-12 08:18:08,534 DEBUG [FsImageLoader] - Loading fsimage section STRING_TABLE of 53 bytes
+2023-09-12 08:18:08,534 DEBUG [FsImageLoader] - Loaded 5 strings into string table of length 53 bytes
+2023-09-12 08:18:08,534 DEBUG [FsImageLoader] - Loaded fsimage section STRING_TABLE in 0ms
+2023-09-12 08:18:08,535 DEBUG [FsImageLoader] - Loading fsimage section INODE_REFERENCE of 0 bytes
+2023-09-12 08:18:08,535 DEBUG [FsImageLoader] - Loaded 0 inode references of size 0 bytes
+2023-09-12 08:18:08,535 DEBUG [FsImageLoader] - Loaded fsimage section INODE_REFERENCE in 0ms
+2023-09-12 08:18:08,535 DEBUG [FsImageLoader] - Loading fsimage section INODE of 1925 bytes
+2023-09-12 08:18:08,536 DEBUG [FsImageLoader] - Loaded 30 inodes [0ms] of length 1925 bytes
+2023-09-12 08:18:08,536 DEBUG [FsImageLoader] - Sorted 30 inodes [0ms]
+2023-09-12 08:18:08,536 DEBUG [FsImageLoader] - Computed inodes idx to id cache[len=30] in 0ms
+2023-09-12 08:18:08,538 DEBUG [FsImageLoader] - Loaded fsimage section INODE in 1ms
+2023-09-12 08:18:08,538 DEBUG [FsImageLoader] - Loading fsimage section INODE_DIR of 157 bytes
+2023-09-12 08:18:08,567 DEBUG [FsImageLoader] - Loaded 10 directories
+2023-09-12 08:18:08,567 DEBUG [FsImageLoader] - Loaded fsimage section INODE_DIR in 29ms
+2023-09-12 08:18:08,567 INFO  [FsImageUpdateHandler] - Loaded /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001 with 0.0MiB in 33ms
+2023-09-12 08:18:08,568 DEBUG [FsImageReporter] - Visiting directory /
+2023-09-12 08:18:08,569 DEBUG [FsImageReporter] - Visiting directory /test1
+2023-09-12 08:18:08,569 DEBUG [FsImageReporter] - Visiting directory /datalake
+2023-09-12 08:18:08,569 DEBUG [FsImageReporter] - Visiting directory /datalake/asset1
+2023-09-12 08:18:08,569 DEBUG [FsImageReporter] - Visiting directory /datalake/asset2
+2023-09-12 08:18:08,569 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3
+2023-09-12 08:18:08,569 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset1
+2023-09-12 08:18:08,569 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset2
+2023-09-12 08:18:08,570 DEBUG [FsImageReporter] - Visiting directory /user
+2023-09-12 08:18:08,570 DEBUG [FsImageReporter] - Visiting directory /user/mm
+2023-09-12 08:18:08,570 DEBUG [FsImageReporter] - Visiting directory /test3
+2023-09-12 08:18:08,570 DEBUG [FsImageReporter] - Visiting directory /test3/foo
+2023-09-12 08:18:08,570 DEBUG [FsImageReporter] - Visiting directory /test3/foo/bar
+2023-09-12 08:18:08,572 DEBUG [FsImageReporter] - Visiting directory /test2
+2023-09-12 08:18:08,572 INFO  [FsImageReporter] - Finished computing overall/group/user stats in 4ms
+2023-09-12 08:18:21,730 INFO  [WebServer] - FSImage exporter started and listening on http://localhost:9709
+2023-09-12 08:18:21,767 DEBUG [FsImageWatcher] - Detected changes (old=, new=/root/fsimage-exporter-artifact/src/test/resources/fsimage_0001)
+2023-09-12 08:18:21,841 DEBUG [FsImageLoader] - Loading fsimage section STRING_TABLE of 53 bytes
+2023-09-12 08:18:21,906 INFO  [FSDirectory] - GLOBAL serial map: bits=29 maxEntries=536870911
+2023-09-12 08:18:21,907 INFO  [FSDirectory] - USER serial map: bits=24 maxEntries=16777215
+2023-09-12 08:18:21,907 INFO  [FSDirectory] - GROUP serial map: bits=24 maxEntries=16777215
+2023-09-12 08:18:21,910 INFO  [FSDirectory] - XATTR serial map: bits=24 maxEntries=16777215
+2023-09-12 08:18:21,912 DEBUG [FsImageLoader] - Loaded 5 strings into string table of length 53 bytes
+2023-09-12 08:18:21,912 DEBUG [FsImageLoader] - Loaded fsimage section STRING_TABLE in 71ms
+2023-09-12 08:18:21,913 DEBUG [FsImageLoader] - Loading fsimage section INODE_REFERENCE of 0 bytes
+2023-09-12 08:18:21,915 DEBUG [FsImageLoader] - Loaded 0 inode references of size 0 bytes
+2023-09-12 08:18:21,915 DEBUG [FsImageLoader] - Loaded fsimage section INODE_REFERENCE in 2ms
+2023-09-12 08:18:21,916 DEBUG [FsImageLoader] - Loading fsimage section INODE of 1925 bytes
+2023-09-12 08:18:21,918 DEBUG [FsImageLoader] - Loaded 30 inodes [1ms] of length 1925 bytes
+2023-09-12 08:18:21,930 DEBUG [FsImageLoader] - Sorted 30 inodes [12ms]
+2023-09-12 08:18:21,930 DEBUG [FsImageLoader] - Computed inodes idx to id cache[len=30] in 0ms
+2023-09-12 08:18:21,942 DEBUG [FsImageLoader] - Loaded fsimage section INODE in 26ms
+2023-09-12 08:18:21,948 DEBUG [FsImageLoader] - Loading fsimage section INODE_DIR of 157 bytes
+2023-09-12 08:18:21,997 DEBUG [FsImageLoader] - Loaded 10 directories
+2023-09-12 08:18:21,997 DEBUG [FsImageLoader] - Loaded fsimage section INODE_DIR in 49ms
+2023-09-12 08:18:22,015 INFO  [FsImageUpdateHandler] - Loaded /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001 with 0.0MiB in 247ms
+2023-09-12 08:18:22,036 DEBUG [FsImageReporter] - Visiting directory /
+2023-09-12 08:18:22,056 DEBUG [FsImageReporter] - Visiting directory /test2
+2023-09-12 08:18:22,057 DEBUG [FsImageReporter] - Visiting directory /user
+2023-09-12 08:18:22,057 DEBUG [FsImageReporter] - Visiting directory /user/mm
+2023-09-12 08:18:22,057 DEBUG [FsImageReporter] - Visiting directory /test3
+2023-09-12 08:18:22,057 DEBUG [FsImageReporter] - Visiting directory /test3/foo
+2023-09-12 08:18:22,057 DEBUG [FsImageReporter] - Visiting directory /test3/foo/bar
+2023-09-12 08:18:22,059 DEBUG [FsImageReporter] - Visiting directory /test1
+2023-09-12 08:18:22,059 DEBUG [FsImageReporter] - Visiting directory /datalake
+2023-09-12 08:18:22,059 DEBUG [FsImageReporter] - Visiting directory /datalake/asset1
+2023-09-12 08:18:22,059 DEBUG [FsImageReporter] - Visiting directory /datalake/asset2
+2023-09-12 08:18:22,059 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3
+2023-09-12 08:18:22,060 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset1
+2023-09-12 08:18:22,060 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset2
+2023-09-12 08:18:22,060 INFO  [FsImageReporter] - Finished computing overall/group/user stats in 29ms
+2023-09-12 08:18:22,064 INFO  [FsImageReporter] - Base path for /tmp is /
+2023-09-12 08:18:22,067 INFO  [FsImageReporter] - Base path for /datalake/a.* is /datalake/
+2023-09-12 08:18:22,069 INFO  [FsImageReporter] - Base path for /user/m.* is /user/
+2023-09-12 08:18:22,070 INFO  [FsImageReporter] - Expanded paths [/datalake/asset3, /datalake/asset1, /datalake/asset2, /user/mm] for path stats [/tmp, /datalake/a.*, /user/m.*]
+2023-09-12 08:18:22,076 DEBUG [FsImageReporter] - Finished path stat for /user/mm with 0 total number of files in 1ms
+2023-09-12 08:18:22,081 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset3 with 3 total number of files in 5ms
+2023-09-12 08:18:22,081 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset1 with 0 total number of files in 0ms
+2023-09-12 08:18:22,082 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset2 with 2 total number of files in 1ms
+2023-09-12 08:18:22,082 INFO  [FsImageReporter] - Finished 4 path stats in 10ms
+2023-09-12 08:18:22,083 INFO  [FsImageReporter] - Expanded paths [/datalake/asset1, /datalake/asset2] for path set stats datalakeAsset1and2
+2023-09-12 08:18:22,084 DEBUG [FsImageReporter] - Finished path set stat for datalakeAsset1and2 with 2 total number of files in 0ms
+2023-09-12 08:18:22,085 INFO  [FsImageReporter] - Base path for /user/foo is /user/
+2023-09-12 08:18:22,085 INFO  [FsImageReporter] - Expanded paths [/datalake/asset3, /user/mm] for path set stats userMmAndFooAndAsset1
+2023-09-12 08:18:22,085 DEBUG [FsImageReporter] - Finished path set stat for userMmAndFooAndAsset1 with 3 total number of files in 0ms
+2023-09-12 08:18:22,087 INFO  [FsImageReporter] - Finished 2 path set stats in 4ms
+2023-09-12 08:19:22,091 DEBUG [FsImageWatcher] - Skipping previously discovered /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001
+2023-09-12 08:20:22,091 DEBUG [FsImageWatcher] - Skipping previously discovered /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001
+2023-09-12 08:20:31,076 INFO  [WebServer] - FSImage exporter started and listening on http://localhost:9709
+2023-09-12 08:20:31,103 DEBUG [FsImageWatcher] - Detected changes (old=, new=/root/fsimage-exporter-artifact/src/test/resources/fsimage_0001)
+2023-09-12 08:20:31,187 DEBUG [FsImageLoader] - Loading fsimage section STRING_TABLE of 53 bytes
+2023-09-12 08:20:31,244 INFO  [FSDirectory] - GLOBAL serial map: bits=29 maxEntries=536870911
+2023-09-12 08:20:31,244 INFO  [FSDirectory] - USER serial map: bits=24 maxEntries=16777215
+2023-09-12 08:20:31,244 INFO  [FSDirectory] - GROUP serial map: bits=24 maxEntries=16777215
+2023-09-12 08:20:31,245 INFO  [FSDirectory] - XATTR serial map: bits=24 maxEntries=16777215
+2023-09-12 08:20:31,246 DEBUG [FsImageLoader] - Loaded 5 strings into string table of length 53 bytes
+2023-09-12 08:20:31,246 DEBUG [FsImageLoader] - Loaded fsimage section STRING_TABLE in 58ms
+2023-09-12 08:20:31,247 DEBUG [FsImageLoader] - Loading fsimage section INODE_REFERENCE of 0 bytes
+2023-09-12 08:20:31,253 DEBUG [FsImageLoader] - Loaded 0 inode references of size 0 bytes
+2023-09-12 08:20:31,253 DEBUG [FsImageLoader] - Loaded fsimage section INODE_REFERENCE in 6ms
+2023-09-12 08:20:31,254 DEBUG [FsImageLoader] - Loading fsimage section INODE of 1925 bytes
+2023-09-12 08:20:31,256 DEBUG [FsImageLoader] - Loaded 30 inodes [1ms] of length 1925 bytes
+2023-09-12 08:20:31,265 DEBUG [FsImageLoader] - Sorted 30 inodes [9ms]
+2023-09-12 08:20:31,265 DEBUG [FsImageLoader] - Computed inodes idx to id cache[len=30] in 0ms
+2023-09-12 08:20:31,268 DEBUG [FsImageLoader] - Loaded fsimage section INODE in 14ms
+2023-09-12 08:20:31,272 DEBUG [FsImageLoader] - Loading fsimage section INODE_DIR of 157 bytes
+2023-09-12 08:20:31,354 DEBUG [FsImageLoader] - Loaded 10 directories
+2023-09-12 08:20:31,354 DEBUG [FsImageLoader] - Loaded fsimage section INODE_DIR in 82ms
+2023-09-12 08:20:31,355 INFO  [FsImageUpdateHandler] - Loaded /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001 with 0.0MiB in 252ms
+2023-09-12 08:20:31,372 DEBUG [FsImageReporter] - Visiting directory /
+2023-09-12 08:20:31,380 DEBUG [FsImageReporter] - Visiting directory /test2
+2023-09-12 08:20:31,380 DEBUG [FsImageReporter] - Visiting directory /user
+2023-09-12 08:20:31,380 DEBUG [FsImageReporter] - Visiting directory /user/mm
+2023-09-12 08:20:31,380 DEBUG [FsImageReporter] - Visiting directory /test3
+2023-09-12 08:20:31,380 DEBUG [FsImageReporter] - Visiting directory /test3/foo
+2023-09-12 08:20:31,380 DEBUG [FsImageReporter] - Visiting directory /test3/foo/bar
+2023-09-12 08:20:31,381 DEBUG [FsImageReporter] - Visiting directory /test1
+2023-09-12 08:20:31,381 DEBUG [FsImageReporter] - Visiting directory /datalake
+2023-09-12 08:20:31,381 DEBUG [FsImageReporter] - Visiting directory /datalake/asset1
+2023-09-12 08:20:31,381 DEBUG [FsImageReporter] - Visiting directory /datalake/asset2
+2023-09-12 08:20:31,382 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3
+2023-09-12 08:20:31,382 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset1
+2023-09-12 08:20:31,382 DEBUG [FsImageReporter] - Visiting directory /datalake/asset3/subasset2
+2023-09-12 08:20:31,382 INFO  [FsImageReporter] - Finished computing overall/group/user stats in 15ms
+2023-09-12 08:20:31,389 INFO  [FsImageReporter] - Base path for /tmp is /
+2023-09-12 08:20:31,390 INFO  [FsImageReporter] - Base path for /datalake/a.* is /datalake/
+2023-09-12 08:20:31,392 INFO  [FsImageReporter] - Base path for /user/m.* is /user/
+2023-09-12 08:20:31,393 INFO  [FsImageReporter] - Expanded paths [/datalake/asset3, /datalake/asset1, /datalake/asset2, /user/mm] for path stats [/tmp, /datalake/a.*, /user/m.*]
+2023-09-12 08:20:31,394 DEBUG [FsImageReporter] - Finished path stat for /user/mm with 0 total number of files in 1ms
+2023-09-12 08:20:31,395 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset3 with 3 total number of files in 1ms
+2023-09-12 08:20:31,395 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset1 with 0 total number of files in 0ms
+2023-09-12 08:20:31,395 DEBUG [FsImageReporter] - Finished path stat for /datalake/asset2 with 2 total number of files in 0ms
+2023-09-12 08:20:31,396 INFO  [FsImageReporter] - Finished 4 path stats in 3ms
+2023-09-12 08:20:31,397 INFO  [FsImageReporter] - Base path for /user/foo is /user/
+2023-09-12 08:20:31,398 INFO  [FsImageReporter] - Expanded paths [/datalake/asset3, /user/mm] for path set stats userMmAndFooAndAsset1
+2023-09-12 08:20:31,398 DEBUG [FsImageReporter] - Finished path set stat for userMmAndFooAndAsset1 with 3 total number of files in 0ms
+2023-09-12 08:20:31,399 INFO  [FsImageReporter] - Expanded paths [/datalake/asset1, /datalake/asset2] for path set stats datalakeAsset1and2
+2023-09-12 08:20:31,400 DEBUG [FsImageReporter] - Finished path set stat for datalakeAsset1and2 with 2 total number of files in 1ms
+2023-09-12 08:20:31,400 INFO  [FsImageReporter] - Finished 2 path set stats in 4ms

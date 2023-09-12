@@ -1,0 +1,7 @@
+/root/fsimage-exporter-artifact/src/test/java/de/m3y/prometheus/exporter/fsimage/FsImageReporterTest.java
+/root/fsimage-exporter-artifact/src/test/java/de/m3y/prometheus/exporter/fsimage/WebServerIT.java
+/root/fsimage-exporter-artifact/src/test/java/de/m3y/prometheus/exporter/fsimage/BenchmarkIT.java
+/root/fsimage-exporter-artifact/src/test/java/de/m3y/prometheus/exporter/fsimage/ConfigTest.java
+/root/fsimage-exporter-artifact/src/test/java/de/m3y/prometheus/exporter/fsimage/FsImageReportUpdaterTest.java
+/root/fsimage-exporter-artifact/src/test/java/de/m3y/prometheus/exporter/fsimage/FsImageWatcherTest.java
+/root/fsimage-exporter-artifact/src/test/java/de/m3y/prometheus/exporter/fsimage/FsImageCollectorTest.java

@@ -1,0 +1,8 @@
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/FsImageCollector.java
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/BuildMetaInfo.java
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/FsImageWatcher.java
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/Config.java
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/FsImageUpdateHandler.java
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/FsImageReporter.java
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/WebServer.java
+/root/fsimage-exporter-artifact/src/main/java/de/m3y/prometheus/exporter/fsimage/ConfigHttpHandler.java

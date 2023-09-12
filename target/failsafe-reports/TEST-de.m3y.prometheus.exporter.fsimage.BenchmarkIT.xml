@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="de.m3y.prometheus.exporter.fsimage.BenchmarkIT" time="131.569" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/root/fsimage-exporter-artifact/target/test-classes:/root/fsimage-exporter-artifact/target/fsimage-exporter-1.5-SNAPSHOT.jar:/root/.m2/repository/de/m3y/hadoop/hdfs/hfsa/hfsa-lib/1.3.9/hfsa-lib-1.3.9.jar:/root/.m2/repository/org/apache/hadoop/hadoop-hdfs/3.3.6/hadoop-hdfs-3.3.6.jar:/root/.m2/repository/org/apache/hadoop/thirdparty/hadoop-shaded-guava/1.1.1/hadoop-shaded-guava-1.1.1.jar:/root/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/root/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.3.6/hadoop-hdfs-client-3.3.6.jar:/root/.m2/repository/org/apache/hadoop/hadoop-common/3.3.6/hadoop-common-3.3.6.jar:/root/.m2/repository/org/apache/hadoop/thirdparty/hadoop-shaded-protobuf_3_7/1.1.1/hadoop-shaded-protobuf_3_7-1.1.1.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/com/github/pjfanning/jersey-json/1.20/jersey-json-1.20.jar:/root/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/root/.m2/repository/com/google/re2j/re2j/1.1/re2j-1.1.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.4/metrics-core-3.2.4.jar:/root/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.4.0/woodstox-core-5.4.0.jar:/root/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.2/snappy-java-1.1.8.2.jar:/root/.m2/repository/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar:/root/.m2/repository/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/root/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/org/slf4j/slf4j-reload4j/1.7.36/slf4j-reload4j-1.7.36.jar:/root/.m2/repository/ch/qos/reload4j/reload4j/1.2.19/reload4j-1.2.19.jar:/root/.m2/repository/org/yaml/snakeyaml/2.1/snakeyaml-2.1.jar:/root/.m2/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_httpserver/0.16.0/simpleclient_httpserver-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_hotspot/0.16.0/simpleclient_hotspot-0.16.0.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/root/.m2/repository/de/m3y/prometheus/assertj/assertj-prometheus/0.6/assertj-prometheus-0.6.jar:/root/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/root/.m2/repository/com/squareup/okhttp3/okhttp/4.11.0/okhttp-4.11.0.jar:/root/.m2/repository/com/squareup/okio/okio/3.2.0/okio-3.2.0.jar:/root/.m2/repository/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.jar:/root/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar:/root/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar:/root/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/root/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/root/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.37/jmh-generator-annprocess-1.37.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-amazon-corretto.x86_64/lib"/>
+    <property name="sun.java.command" value="/root/fsimage-exporter-artifact/target/surefire/surefirebooter-20230912081818413_3.jar /root/fsimage-exporter-artifact/target/surefire 2023-09-12T08-18-18_286-jvmRun1 surefire-20230912081818413_1tmp surefire_0-20230912081818413_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/root/fsimage-exporter-artifact/target/test-classes:/root/fsimage-exporter-artifact/target/fsimage-exporter-1.5-SNAPSHOT.jar:/root/.m2/repository/de/m3y/hadoop/hdfs/hfsa/hfsa-lib/1.3.9/hfsa-lib-1.3.9.jar:/root/.m2/repository/org/apache/hadoop/hadoop-hdfs/3.3.6/hadoop-hdfs-3.3.6.jar:/root/.m2/repository/org/apache/hadoop/thirdparty/hadoop-shaded-guava/1.1.1/hadoop-shaded-guava-1.1.1.jar:/root/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/root/.m2/repository/org/apache/hadoop/hadoop-hdfs-client/3.3.6/hadoop-hdfs-client-3.3.6.jar:/root/.m2/repository/org/apache/hadoop/hadoop-common/3.3.6/hadoop-common-3.3.6.jar:/root/.m2/repository/org/apache/hadoop/thirdparty/hadoop-shaded-protobuf_3_7/1.1.1/hadoop-shaded-protobuf_3_7-1.1.1.jar:/root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/root/.m2/repository/com/github/pjfanning/jersey-json/1.20/jersey-json-1.20.jar:/root/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar:/root/.m2/repository/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar:/root/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/root/.m2/repository/com/google/re2j/re2j/1.1/re2j-1.1.jar:/root/.m2/repository/io/dropwizard/metrics/metrics-core/3.2.4/metrics-core-3.2.4.jar:/root/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/root/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.4.0/woodstox-core-5.4.0.jar:/root/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.2/snappy-java-1.1.8.2.jar:/root/.m2/repository/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar:/root/.m2/repository/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/root/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/root/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/root/.m2/repository/org/slf4j/slf4j-reload4j/1.7.36/slf4j-reload4j-1.7.36.jar:/root/.m2/repository/ch/qos/reload4j/reload4j/1.2.19/reload4j-1.2.19.jar:/root/.m2/repository/org/yaml/snakeyaml/2.1/snakeyaml-2.1.jar:/root/.m2/repository/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_httpserver/0.16.0/simpleclient_httpserver-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0.jar:/root/.m2/repository/io/prometheus/simpleclient_hotspot/0.16.0/simpleclient_hotspot-0.16.0.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/root/.m2/repository/de/m3y/prometheus/assertj/assertj-prometheus/0.6/assertj-prometheus-0.6.jar:/root/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/root/.m2/repository/com/squareup/okhttp3/okhttp/4.11.0/okhttp-4.11.0.jar:/root/.m2/repository/com/squareup/okio/okio/3.2.0/okio-3.2.0.jar:/root/.m2/repository/com/squareup/okio/okio-jvm/3.2.0/okio-jvm-3.2.0.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.20/kotlin-stdlib-1.6.20.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.20/kotlin-stdlib-common-1.6.20.jar:/root/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.20/kotlin-stdlib-jdk8-1.6.20.jar:/root/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.20/kotlin-stdlib-jdk7-1.6.20.jar:/root/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar:/root/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/root/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/root/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.37/jmh-generator-annprocess-1.37.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-22"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-amazon-corretto.x86_64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/root/fsimage-exporter-artifact"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/root/fsimage-exporter-artifact/target/surefire/surefirebooter-20230912081818413_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8.1+8-LTS"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.1.49-69.116.amzn2023.x86_64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.8.8.1"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="/root/fsimage-exporter-artifact"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.8.1+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runMicroBenchMark" classname="de.m3y.prometheus.exporter.fsimage.BenchmarkIT" time="131.408">
+    <system-out><![CDATA[# JMH version: 1.37
+# VM version: JDK 17.0.8.1, OpenJDK 64-Bit Server VM, 17.0.8.1+8-LTS
+# VM invoker: /usr/lib/jvm/java-17-amazon-corretto.x86_64/bin/java
+# VM options: -server -XX:+UseG1GC -Xmx256m
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: de.m3y.prometheus.exporter.fsimage.BenchmarkIT.pollExporter
+
+# Run progress: 0.00% complete, ETA 00:02:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0 [de.m3y.prometheus.exporter.fsimage.BenchmarkIT.pollExporter-jmh-worker-1] INFO  de.m3y.prometheus.exporter.fsimage.WebServer  - FSImage exporter started and listening on http://localhost:9709
+176 [pool-3-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - GLOBAL serial map: bits=29 maxEntries=536870911
+177 [pool-3-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - USER serial map: bits=24 maxEntries=16777215
+177 [pool-3-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - GROUP serial map: bits=24 maxEntries=16777215
+180 [pool-3-thread-1] INFO  org.apache.hadoop.hdfs.server.namenode.FSDirectory  - XATTR serial map: bits=24 maxEntries=16777215
+285 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageUpdateHandler  - Loaded /root/fsimage-exporter-artifact/src/test/resources/fsimage_0001 with 0.0MiB in 247ms
+330 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Finished computing overall/group/user stats in 29ms
+334 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Base path for /tmp is /
+337 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Base path for /datalake/a.* is /datalake/
+339 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Base path for /user/m.* is /user/
+340 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Expanded paths [/datalake/asset3, /datalake/asset1, /datalake/asset2, /user/mm] for path stats [/tmp, /datalake/a.*, /user/m.*]
+352 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Finished 4 path stats in 10ms
+353 [ForkJoinPool.commonPool-worker-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Expanded paths [/datalake/asset1, /datalake/asset2] for path set stats datalakeAsset1and2
+355 [ForkJoinPool.commonPool-worker-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Base path for /user/foo is /user/
+355 [ForkJoinPool.commonPool-worker-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Expanded paths [/datalake/asset3, /user/mm] for path set stats userMmAndFooAndAsset1
+357 [pool-3-thread-1] INFO  de.m3y.prometheus.exporter.fsimage.FsImageReporter  - Finished 2 path set stats in 4ms
+51.726 ms/op
+# Warmup Iteration   2: 49.982 ms/op
+Iteration   1: 49.794 ms/op
+                 gc.alloc.rate:      18.094 MB/sec
+                 gc.alloc.rate.norm: 944797.811 B/op
+                 gc.count:           9.000 counts
+                 gc.time:            9.000 ms
+
+Iteration   2: 49.855 ms/op
+                 gc.alloc.rate:      18.067 MB/sec
+                 gc.alloc.rate.norm: 944664.756 B/op
+                 gc.count:           9.000 counts
+                 gc.time:            8.000 ms
+
+Iteration   3: 49.980 ms/op
+                 gc.alloc.rate:      17.969 MB/sec
+                 gc.alloc.rate.norm: 941813.333 B/op
+                 gc.count:           9.000 counts
+                 gc.time:            8.000 ms
+
+Iteration   4: 49.760 ms/op
+                 gc.alloc.rate:      17.989 MB/sec
+                 gc.alloc.rate.norm: 938696.000 B/op
+                 gc.count:           9.000 counts
+                 gc.time:            9.000 ms
+
+Iteration   5: 49.809 ms/op
+                 gc.alloc.rate:      17.959 MB/sec
+                 gc.alloc.rate.norm: 938158.328 B/op
+                 gc.count:           8.000 counts
+                 gc.time:            7.000 ms
+
+Iteration   6: 49.860 ms/op
+                 gc.alloc.rate:      17.883 MB/sec
+                 gc.alloc.rate.norm: 935001.274 B/op
+                 gc.count:           8.000 counts
+                 gc.time:            8.000 ms
+
+Iteration   7: 49.730 ms/op
+                 gc.alloc.rate:      17.908 MB/sec
+                 gc.alloc.rate.norm: 933957.505 B/op
+                 gc.count:           9.000 counts
+                 gc.time:            8.000 ms
+
+Iteration   8: 49.765 ms/op
+                 gc.alloc.rate:      17.893 MB/sec
+                 gc.alloc.rate.norm: 933796.338 B/op
+                 gc.count:           8.000 counts
+                 gc.time:            8.000 ms
+
+Iteration   9: 49.803 ms/op
+                 gc.alloc.rate:      17.878 MB/sec
+                 gc.alloc.rate.norm: 933737.751 B/op
+                 gc.count:           8.000 counts
+                 gc.time:            7.000 ms
+
+Iteration  10: 49.912 ms/op
+                 gc.alloc.rate:      17.824 MB/sec
+                 gc.alloc.rate.norm: 933251.900 B/op
+                 gc.count:           8.000 counts
+                 gc.time:            7.000 ms
+
+
+
+Result "de.m3y.prometheus.exporter.fsimage.BenchmarkIT.pollExporter":
+  49.827 ±(99.9%) 0.115 ms/op [Average]
+  (min, avg, max) = (49.730, 49.827, 49.980), stdev = 0.076
+  CI (99.9%): [49.712, 49.942] (assumes normal distribution)
+
+Secondary result "de.m3y.prometheus.exporter.fsimage.BenchmarkIT.pollExporter:gc.alloc.rate":
+  17.946 ±(99.9%) 0.130 MB/sec [Average]
+  (min, avg, max) = (17.824, 17.946, 18.094), stdev = 0.086
+  CI (99.9%): [17.816, 18.077] (assumes normal distribution)
+
+Secondary result "de.m3y.prometheus.exporter.fsimage.BenchmarkIT.pollExporter:gc.alloc.rate.norm":
+  937787.500 ±(99.9%) 6927.188 B/op [Average]
+  (min, avg, max) = (933251.900, 937787.500, 944797.811), stdev = 4581.906
+  CI (99.9%): [930860.312, 944714.688] (assumes normal distribution)
+
+Secondary result "de.m3y.prometheus.exporter.fsimage.BenchmarkIT.pollExporter:gc.count":
+  85.000 ±(99.9%) 0.001 counts [Sum]
+  (min, avg, max) = (8.000, 8.500, 9.000), stdev = 0.527
+  CI (99.9%): [85.000, 85.000] (assumes normal distribution)
+
+Secondary result "de.m3y.prometheus.exporter.fsimage.BenchmarkIT.pollExporter:gc.time":
+  79.000 ±(99.9%) 0.001 ms [Sum]
+  (min, avg, max) = (7.000, 7.900, 9.000), stdev = 0.738
+  CI (99.9%): [79.000, 79.000] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:02:10
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                    Mode  Cnt       Score      Error   Units
+BenchmarkIT.pollExporter                     avgt   10      49.827 ±    0.115   ms/op
+BenchmarkIT.pollExporter:gc.alloc.rate       avgt   10      17.946 ±    0.130  MB/sec
+BenchmarkIT.pollExporter:gc.alloc.rate.norm  avgt   10  937787.500 ± 6927.188    B/op
+BenchmarkIT.pollExporter:gc.count            avgt   10      85.000             counts
+BenchmarkIT.pollExporter:gc.time             avgt   10      79.000                 ms
+
+Benchmark result is saved to target/jmh-reports/BenchmarkIT.json
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/root/fsimage-exporter-artifact/target/fsimage-exporter-1.5-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/root/.m2/repository/org/slf4j/slf4j-reload4j/1.7.36/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Reload4jLoggerFactory]
+]]></system-err>
+  </testcase>
+</testsuite>
